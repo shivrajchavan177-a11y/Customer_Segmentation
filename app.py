@@ -19,7 +19,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("Customer_Segmentation_100K.xlsx")
+    df = pd.read_excel("Customer_dataset.xlsx")
     return df
 
 df = load_data()
