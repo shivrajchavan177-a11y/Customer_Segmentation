@@ -242,7 +242,7 @@ elif page == "📊 Visualization":
 
 elif page == "🤖 Predict Customer":
 
-    st.title("🤖 Customer Segmentation Prediction")
+    st.title("Customer Segmentation Prediction")
 
     st.write(
         """
